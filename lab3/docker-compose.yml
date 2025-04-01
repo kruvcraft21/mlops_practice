@@ -4,9 +4,7 @@ services:
   streamlitapp:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: ./Dockerfile
     ports:
       - "8503:8503"
-    volumes:
-      - .:/app
     restart: unless-stopped
