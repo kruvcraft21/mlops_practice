@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  streamlitapp:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "8503:8503"
+    restart: unless-stopped

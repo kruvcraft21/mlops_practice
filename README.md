@@ -1,4 +1,4 @@
-# Practices for MLops course UrFU + SkillFactory
+# Practices for MLops course UrFU
 ## Module 1
 <details>
 
