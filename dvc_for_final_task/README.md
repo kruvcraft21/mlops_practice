@@ -2,8 +2,8 @@
 
 1. Клонируем и поднимаем окружение:
 
-    - git clone https://github.com/your-name/mlops_final_task.git
-    - cd mlops_final_task
+    - git clone 
+    - cd 
     - python3 -m venv .venv && source .venv/bin/activate
     - pip install "dvc[s3]" pandas numpy scikit-learn
 
@@ -18,7 +18,7 @@
 
     - mkdir -p data/raw data/balanced data/augmented scripts
 
-    Загружаем свои скрипты в scripts/: load_and_preprocess_newsgroups.py , prepare_newsgroups_v2.py , prepare_newsgroups_v3.py
+    Загружаем скрипты в scripts/: load_and_preprocess_newsgroups.py , prepare_newsgroups_v2.py , prepare_newsgroups_v3.py
 
 4. Поднимаем MinIO (локально):
 
